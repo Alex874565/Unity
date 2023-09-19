@@ -1,0 +1,951 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Unity Dev/Haunted Zombie Rush
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52319
+Successfully changed project path to: C:/Unity Dev/Haunted Zombie Rush
+C:/Unity Dev/Haunted Zombie Rush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6124] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3062412078 [EditorId] 3062412078 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-119GRD4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6124] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3062412078 [EditorId] 3062412078 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-119GRD4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 34.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity Dev/Haunted Zombie Rush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.3734
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.049328 seconds.
+- Loaded All Assemblies, in  2.637 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 593 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.168 seconds
+Domain Reload Profiling: 3800ms
+	BeginReloadAssembly (1808ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (134ms)
+	RebuildNativeTypeToScriptingClass (58ms)
+	initialDomainReloadingComplete (175ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (1800ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (451ms)
+			TypeCache.Refresh (450ms)
+				TypeCache.ScanAssembly (429ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1169ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1064ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (814ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.011 seconds
+Refreshing native plugins compatible for Editor in 6.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 3810ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (2650ms)
+		LoadAssemblies (2534ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (197ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (804ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 10.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (29.1 KB). Loaded Objects now: 3552.
+Memory consumption went from 130.1 MB to 130.1 MB.
+Total: 7.431500 ms (FindLiveObjects: 0.465200 ms CreateObjectMapping: 0.407000 ms MarkObjects: 6.436400 ms  DeleteObjects: 0.121100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.UI: f762135bac905e34e2b540c872c48817 -> 7ac2e4ab0e1385bc66dd6dd258282fe3
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.741 seconds
+Refreshing native plugins compatible for Editor in 5.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.549 seconds
+Domain Reload Profiling: 2283ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1550ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (681ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (453ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3555.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 4.224900 ms (FindLiveObjects: 0.623400 ms CreateObjectMapping: 0.409400 ms MarkObjects: 3.140000 ms  DeleteObjects: 0.050100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 150185.022539 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_Atlas.tga
+  artifactKey: Guid(c16813bda622f354a8fde16c171a61a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_Atlas.tga using Guid(c16813bda622f354a8fde16c171a61a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfe27003dc8cdc8a3d88d521cdfc9af') in 0.293766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_V3_Atlas.tga
+  artifactKey: Guid(1741c1fce5599c54aabbc2782947a879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_V3_Atlas.tga using Guid(1741c1fce5599c54aabbc2782947a879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8203d9e1259df496eeec3d2f0d0bc2f7') in 0.167351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_V2_Atlas_Alpha.tga
+  artifactKey: Guid(3803bc8a24adc4b4a8c5257beb76468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_V2_Atlas_Alpha.tga using Guid(3803bc8a24adc4b4a8c5257beb76468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144f0736262a42a2c144cc93038fbd20') in 0.137246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_Atlas_Alpha.tga
+  artifactKey: Guid(17b92e00771cd924fab551811f9bfd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_Atlas_Alpha.tga using Guid(17b92e00771cd924fab551811f9bfd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e259165eb5fafce719b8b79dc8b6c5') in 0.134250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 422.897355 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Bone_01.fbx
+  artifactKey: Guid(4f51b79b600b1cd4a99df5906962d9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Bone_01.fbx using Guid(4f51b79b600b1cd4a99df5906962d9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fc6d17ea8fd0a20e253ded5b07d6a3') in 0.368489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/floor_03_decal.fbx
+  artifactKey: Guid(c6773f43c1b5dec4ab279aa49228d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/floor_03_decal.fbx using Guid(c6773f43c1b5dec4ab279aa49228d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cc7f4a50ffb0474fa0e46646a1bf69') in 0.246424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/center_02_floor.fbx
+  artifactKey: Guid(fcabcff6ac0fe8a4db19e3e85cf7df09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/center_02_floor.fbx using Guid(fcabcff6ac0fe8a4db19e3e85cf7df09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6169b3ad973cbeb3a127535881fae725') in 0.160142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Bone_13.fbx
+  artifactKey: Guid(284dbdd93ad97c44d90f8e4181b347a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Bone_13.fbx using Guid(284dbdd93ad97c44d90f8e4181b347a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd705f8666648fec29e062de5bdb7725f') in 0.164400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Bone_06.fbx
+  artifactKey: Guid(c7d04f49b40e20c40a9337c1ee76a167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Bone_06.fbx using Guid(c7d04f49b40e20c40a9337c1ee76a167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14e010874d0beea0ffc427b8cd8be31') in 0.160170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Bone_08.fbx
+  artifactKey: Guid(c2c008621a5d7394e95012bf7f99c298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Bone_08.fbx using Guid(c2c008621a5d7394e95012bf7f99c298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d90ed8762f56176732196072254828b') in 0.150920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_06_decal.fbx
+  artifactKey: Guid(b04fc1cc419b44c4db576252e4e89ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_06_decal.fbx using Guid(b04fc1cc419b44c4db576252e4e89ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51105108c6c67d42cad8443e5c49fd07') in 0.142844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/center_01_floor.fbx
+  artifactKey: Guid(1607a62d3cf62e94488275e2afff5aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/center_01_floor.fbx using Guid(1607a62d3cf62e94488275e2afff5aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6281b9d1479986f2e2db34aab1863c6b') in 0.134185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/chain_c.fbx
+  artifactKey: Guid(f75b9b65d7f7c104e9e6277f90ddfb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/chain_c.fbx using Guid(f75b9b65d7f7c104e9e6277f90ddfb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc94fed726e61fea15849ab2f00e798') in 0.129937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_tile_01_bd.fbx
+  artifactKey: Guid(2a1536304631efb4c92df1d7f3a1eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_tile_01_bd.fbx using Guid(2a1536304631efb4c92df1d7f3a1eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2760c416e233ad97edfbe1ce749d4dd4') in 0.138790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock02_lava.fbx
+  artifactKey: Guid(9de25de2cc573a54cb63351a213f5922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock02_lava.fbx using Guid(9de25de2cc573a54cb63351a213f5922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f76ff2b6dac6441a6010597a4bbea6') in 0.130402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_end_c.fbx
+  artifactKey: Guid(426db41be62a81f44a8417e902859b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_end_c.fbx using Guid(426db41be62a81f44a8417e902859b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f64a25a9184400d067e072331cf030f') in 0.124256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_06.fbx
+  artifactKey: Guid(1c8f6d843ed33e0489e1237c1f72a027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_06.fbx using Guid(1c8f6d843ed33e0489e1237c1f72a027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214527a4da5a9671f72f5357f3937bb4') in 0.146624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Exit.fbx
+  artifactKey: Guid(6cdb43192d3ace04f948faeb89bacfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Exit.fbx using Guid(6cdb43192d3ace04f948faeb89bacfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998e287a472e33593c293c8228c5c9e4') in 0.146228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Entrance.fbx
+  artifactKey: Guid(b0969ac0e3bad4a448cc32da908007c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Entrance.fbx using Guid(b0969ac0e3bad4a448cc32da908007c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43922f1e46e1e68812ccb017d0c690c4') in 0.131450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_08.fbx
+  artifactKey: Guid(8c020c41833448945825abf276b91583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_08.fbx using Guid(8c020c41833448945825abf276b91583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92258e3aa0b2074d93c695b4d39fea91') in 0.148832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_02.fbx
+  artifactKey: Guid(f78adaf8d9643f1468ca3fbe4ecd04d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_02.fbx using Guid(f78adaf8d9643f1468ca3fbe4ecd04d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6275578e6ef39ccb988882209dc953') in 0.134706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_02_decal.fbx
+  artifactKey: Guid(70bcd2033d3417340ae019e2452847ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_02_decal.fbx using Guid(70bcd2033d3417340ae019e2452847ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c410b84090d0ab4f1f9687873df32b3') in 0.131356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/floor_01_decal.fbx
+  artifactKey: Guid(8064fa3ad0637cc48b22f3d286dba189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/floor_01_decal.fbx using Guid(8064fa3ad0637cc48b22f3d286dba189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe7b4490e43686e1563f46e05d9c047') in 0.123742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/grass_03.fbx
+  artifactKey: Guid(2b3209d6e2f538b40a1bbf33064aac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/grass_03.fbx using Guid(2b3209d6e2f538b40a1bbf33064aac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b416e026af2f0f95afc4172f6a2d2fc2') in 0.133586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_07.fbx
+  artifactKey: Guid(8a2fa11bec347b340a9e88446d64ae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_07.fbx using Guid(8a2fa11bec347b340a9e88446d64ae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a8153ff50c9dd51063ef34d190143a') in 0.140451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.002038 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock01_lava.fbx
+  artifactKey: Guid(0e850ea18866bb54ab6d05638c87d788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock01_lava.fbx using Guid(0e850ea18866bb54ab6d05638c87d788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e039b1641a124e57a670f31fe082d2a') in 0.149152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_end_d.fbx
+  artifactKey: Guid(c0679d4c0dd78524ba664fba864bb08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_end_d.fbx using Guid(c0679d4c0dd78524ba664fba864bb08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5af61de4ecd4afc1e4eb609b5d5b26e') in 0.144305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_blue_02_decal.fbx
+  artifactKey: Guid(e2c4251468a909a4f855b206860274a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_blue_02_decal.fbx using Guid(e2c4251468a909a4f855b206860274a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb24f581bd7035bb8255e02ccd7b8ccd') in 0.137789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_corner_convex_d.fbx
+  artifactKey: Guid(e13bc78671c1cba489253278b93416b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_corner_convex_d.fbx using Guid(e13bc78671c1cba489253278b93416b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6586fbdf3c24d6e802bd1b0b3c145f49') in 0.145014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_corner_concave.fbx
+  artifactKey: Guid(06c1859017937e140b6deaffdfab219f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_corner_concave.fbx using Guid(06c1859017937e140b6deaffdfab219f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62289c4f0d740b8f016ab352562a22b4') in 0.136933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_05.fbx
+  artifactKey: Guid(1c4b9172e03d71043af18f63bcef6e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_05.fbx using Guid(1c4b9172e03d71043af18f63bcef6e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f508ead62ed51d16687b48a8d5555e5') in 0.143624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_tile_02_bd.fbx
+  artifactKey: Guid(133cac04563d8134ba977e9306cdbee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_tile_02_bd.fbx using Guid(133cac04563d8134ba977e9306cdbee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce04047b1bf608cca75c2964124d5d1') in 0.139458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_blue_07_decal.fbx
+  artifactKey: Guid(56c4a042f67bc764fa1befc58646fec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_blue_07_decal.fbx using Guid(56c4a042f67bc764fa1befc58646fec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5813965ae86dbe0dc2433a950daa89') in 0.141468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_04.fbx
+  artifactKey: Guid(a2f8715257465e74388fa24d08d5c8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/bush_04.fbx using Guid(a2f8715257465e74388fa24d08d5c8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adaa06cc8a76cbd142ac815b975a05ca') in 0.159381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/grass_04.fbx
+  artifactKey: Guid(a320240b2d722df43a2ec9b3a67c417e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/grass_04.fbx using Guid(a320240b2d722df43a2ec9b3a67c417e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d3091470ca93a6938400c6830549b6') in 0.139661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Bone_04.fbx
+  artifactKey: Guid(ba80f8ef9880eb84398901914ff4ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Bone_04.fbx using Guid(ba80f8ef9880eb84398901914ff4ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b4c8618b4d5de15cc1e74611dadecb') in 0.147708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_tile_02_ac.fbx
+  artifactKey: Guid(30dd9f79a3b0fb649af0abfe287dd661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/module_tile_02_ac.fbx using Guid(30dd9f79a3b0fb649af0abfe287dd661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3983feb9b0b83cd96dad4b5bbe38bef1') in 0.152259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_blue_05_decal.fbx
+  artifactKey: Guid(d2f0bd1b076d9134b9f0a6c2c425932f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_blue_05_decal.fbx using Guid(d2f0bd1b076d9134b9f0a6c2c425932f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5066095dd2d48beb0a879c7acadc53c5') in 0.135462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_05_decal.fbx
+  artifactKey: Guid(067f516b36300164c97282211556c5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_05_decal.fbx using Guid(067f516b36300164c97282211556c5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c0b4aa029810f14e5a8a1065fa824c') in 0.138561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_07_decal.fbx
+  artifactKey: Guid(a7d8a8e5d5320824f93d924d9b2f5d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_07_decal.fbx using Guid(a7d8a8e5d5320824f93d924d9b2f5d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795ea26a9ace3ebc1d6b5611ee973c7b') in 0.125704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock06_lava.fbx
+  artifactKey: Guid(8af30d347f3c64340a311fc16a63faaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock06_lava.fbx using Guid(8af30d347f3c64340a311fc16a63faaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22392e94edb822e767a66d3357953349') in 0.143853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/rock_cliff_03.fbx
+  artifactKey: Guid(6ff214a3872fae048a61e94bab84f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/rock_cliff_03.fbx using Guid(6ff214a3872fae048a61e94bab84f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d2a37f8b1a0a9a4261273b8142fe17') in 0.123295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/skull_03.fbx
+  artifactKey: Guid(7674c74172cc5c54db1c486ee9a1376c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/skull_03.fbx using Guid(7674c74172cc5c54db1c486ee9a1376c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c8acdb1515345dd2b2a9b0e0037858') in 0.142814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/rock_cliff_05_lava.fbx
+  artifactKey: Guid(0fa6f7a46d416ab4c8b4d61d5373571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/rock_cliff_05_lava.fbx using Guid(0fa6f7a46d416ab4c8b4d61d5373571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108187b4451ce181e1c732edc2713775') in 0.142577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock05.fbx
+  artifactKey: Guid(b24f3bdabe22ffe47af04693ea522eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock05.fbx using Guid(b24f3bdabe22ffe47af04693ea522eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cf4bcecd585adc5c38f5d8afacfa51') in 0.164457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock06.fbx
+  artifactKey: Guid(d21c883c59babfa4d8162ecfe7c2ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock06.fbx using Guid(d21c883c59babfa4d8162ecfe7c2ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ee5c611938cd50513ab3654a02fed7') in 0.108705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/rock_cliff_03_lava.fbx
+  artifactKey: Guid(691526ecb0c231641a812319df99e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/rock_cliff_03_lava.fbx using Guid(691526ecb0c231641a812319df99e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99af84b808b38e7882c7fcc1565c648f') in 0.168176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock05_lava.fbx
+  artifactKey: Guid(6ac179c0c078b8d4693be313e90feffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock05_lava.fbx using Guid(6ac179c0c078b8d4693be313e90feffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a5f523b051f6eee64628757dc8538d') in 0.123717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/rock_01_pillars.fbx
+  artifactKey: Guid(da16b0f869e8c644b99564428edea4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/rock_01_pillars.fbx using Guid(da16b0f869e8c644b99564428edea4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c820e95e4826770be7b25873cd77f045') in 0.118647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/rock_cliff_01_lava.fbx
+  artifactKey: Guid(ae7d51e2c8d64b646b328b5143467f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/rock_cliff_01_lava.fbx using Guid(ae7d51e2c8d64b646b328b5143467f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7385b0757c176e1dd20ad59bfa5318e3') in 0.139784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock03_lava.fbx
+  artifactKey: Guid(8f88dffc0b4bc6044941010eae6c633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Rock03_lava.fbx using Guid(8f88dffc0b4bc6044941010eae6c633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701fd05838bf39073ee04f267d0b2509') in 0.191585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/skull_06.fbx
+  artifactKey: Guid(8bd3ce87f8a571c4fbbcd59d2f7661de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/skull_06.fbx using Guid(8bd3ce87f8a571c4fbbcd59d2f7661de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb57dedff795a8c805803425f4f3a376') in 0.108554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.015045 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_07_lava.fbx
+  artifactKey: Guid(a6bb43bba5fd9a74cb2a810d9467f946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_07_lava.fbx using Guid(a6bb43bba5fd9a74cb2a810d9467f946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7942f034e49800e717b71bb18ec47c42') in 0.125835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007829 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_03.fbx
+  artifactKey: Guid(238cf5fa7cd54374b809b76d2c64f35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_03.fbx using Guid(238cf5fa7cd54374b809b76d2c64f35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491a16a05af1c326d929d2ead7c2fa87') in 0.112155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_02_lava.fbx
+  artifactKey: Guid(fe6ee25bcb14c5e4bae980d741603c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_02_lava.fbx using Guid(fe6ee25bcb14c5e4bae980d741603c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e303c7ad765b43d3c397ffe45be5f87') in 0.132880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_05_spikes.fbx
+  artifactKey: Guid(68e06d4ca4997054da17f67608426bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_05_spikes.fbx using Guid(68e06d4ca4997054da17f67608426bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d773b310af1de5e80568c5d81e76e2') in 0.158784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_01_spikes_lava.fbx
+  artifactKey: Guid(fb7a8a9e728f9614bbd3f763fa345a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_01_spikes_lava.fbx using Guid(fb7a8a9e728f9614bbd3f763fa345a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec93e75aa985cfd6f9677a4efb7b186') in 0.156149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_04_spikes_lava.fbx
+  artifactKey: Guid(9e0a57539062347469161cc7e67c3a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_04_spikes_lava.fbx using Guid(9e0a57539062347469161cc7e67c3a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cd739f3bfd26cb731d565c96287a35') in 0.146398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stair_01.fbx
+  artifactKey: Guid(5be0a22508f4bea419f338b416c72659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stair_01.fbx using Guid(5be0a22508f4bea419f338b416c72659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1705f3dbd8de0b3d765e53fca009121a') in 0.152790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/skull_08.fbx
+  artifactKey: Guid(acdd4f25b57b04a4b8c7b5af17c325d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/skull_08.fbx using Guid(acdd4f25b57b04a4b8c7b5af17c325d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef85bc0569e079f72b93381886c85ed7') in 0.101374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_01_spikes.fbx
+  artifactKey: Guid(4fe3c5a3501228344a60eadc0c7dfbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_01_spikes.fbx using Guid(4fe3c5a3501228344a60eadc0c7dfbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56354da29f2ddfd9ed91f7334c390d47') in 0.149633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_06_spikes.fbx
+  artifactKey: Guid(cc23077fd4403bb4bb8853575356552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_06_spikes.fbx using Guid(cc23077fd4403bb4bb8853575356552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7269dcefcac5a2e1456811da9d965c87') in 0.096419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003465 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_01_lava.fbx
+  artifactKey: Guid(ba185b39ec80e5b42ad89f51d135bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_01_lava.fbx using Guid(ba185b39ec80e5b42ad89f51d135bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e9316df3925d8bb202529a04f202d3') in 0.121695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001882 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_03_lava.fbx
+  artifactKey: Guid(23b00e21d8ede15489aa1a2d28303c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_03_lava.fbx using Guid(23b00e21d8ede15489aa1a2d28303c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4520634d33b0f59bdd8bb9c2f1c82ba2') in 0.148019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_04.fbx
+  artifactKey: Guid(3fc37ca6e07cf00458e002c6a15f8d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_04.fbx using Guid(3fc37ca6e07cf00458e002c6a15f8d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe6841c6d23c4c9ed767ca10deb66af') in 0.166020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_07.fbx
+  artifactKey: Guid(cfcc6f9cbf6a3f54fb0f6e6b18736b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/step_stone_07.fbx using Guid(cfcc6f9cbf6a3f54fb0f6e6b18736b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40cdd3b8098453aa2628e704748ae86') in 0.139253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/skull_05.fbx
+  artifactKey: Guid(d6668ab5cc5466949a3b898d7a361159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/skull_05.fbx using Guid(d6668ab5cc5466949a3b898d7a361159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1c833d7861c92ea6d2b572c9aaa87a') in 0.135590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/skull_09.fbx
+  artifactKey: Guid(f8f723d398a360d4eb6321825534c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/skull_09.fbx using Guid(f8f723d398a360d4eb6321825534c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a6e7bf7b1a3b55daa0fa77096f6c63') in 0.132199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/spokebone_01.fbx
+  artifactKey: Guid(f7dfbb9b380e9d84790a09ca624952cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/spokebone_01.fbx using Guid(f7dfbb9b380e9d84790a09ca624952cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1f4212f4bb591bc5e7b669d9ddfe3b') in 0.158434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_02_spikes_lava.fbx
+  artifactKey: Guid(1c2694213e751ae4594877dc2013f051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_02_spikes_lava.fbx using Guid(1c2694213e751ae4594877dc2013f051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67eafbff519bfe312669466a0351e8a4') in 0.154337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_blue_04_decal.fbx
+  artifactKey: Guid(4fd2cd5728572ef4f8b619f7a43646eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/Lava_blue_04_decal.fbx using Guid(4fd2cd5728572ef4f8b619f7a43646eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a2909c04b874e263b73a1e709e657e') in 0.081813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.378430 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_06_spikes_lava.fbx
+  artifactKey: Guid(42c8624a92ff7104a9abb5925a256ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_06_spikes_lava.fbx using Guid(42c8624a92ff7104a9abb5925a256ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cc16613738453af1cf0e2eb0e42096') in 0.164472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_half_02_lava_blue.fbx
+  artifactKey: Guid(f5383ee4be07f6440813f0ea6ef336a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_half_02_lava_blue.fbx using Guid(f5383ee4be07f6440813f0ea6ef336a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7577e758e7c8993b7ccb8de181553fea') in 0.134330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_half_01_lava_red.fbx
+  artifactKey: Guid(13e01ae7e8bfd474ea6669e030197db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_half_01_lava_red.fbx using Guid(13e01ae7e8bfd474ea6669e030197db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bfaf4e4d282d21e0aa384e15d5d424') in 0.138194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_bridge_lava.fbx
+  artifactKey: Guid(c4cae2f44721856478b23e451edcafe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_bridge_lava.fbx using Guid(c4cae2f44721856478b23e451edcafe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf466cf72b582ddbcecf5b3c3246d4b5') in 0.138007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_lava_red.fbx
+  artifactKey: Guid(d75a67e736fca384eb0ec5f302c6b6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_lava_red.fbx using Guid(d75a67e736fca384eb0ec5f302c6b6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f991b7f27c70b64db780afbbc7802f3') in 0.135818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_tile_c_02.fbx
+  artifactKey: Guid(352dc70e7559c79438a6d38095e00915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_tile_c_02.fbx using Guid(352dc70e7559c79438a6d38095e00915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd97630b95d32e3344dad830f4dea96') in 0.134233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_tile_b_01.fbx
+  artifactKey: Guid(201325539b9ecf649818595f806a0701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_tile_b_01.fbx using Guid(201325539b9ecf649818595f806a0701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb83864dc5e87d87f6c6366115633f4e') in 0.138691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_tile_c_01.fbx
+  artifactKey: Guid(36f0b9c1383fd43488808b128a86f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_tile_c_01.fbx using Guid(36f0b9c1383fd43488808b128a86f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e151c785dbf48e037509f1f166aa84') in 0.141289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_corner_concave_a.fbx
+  artifactKey: Guid(67d5d6968bac8c045a45c64f7fdb76e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_corner_concave_a.fbx using Guid(67d5d6968bac8c045a45c64f7fdb76e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd705da63019904b17ec8b779ef5a9570') in 0.133714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_corner_convex_b.fbx
+  artifactKey: Guid(019ace7f1c1cfb94fb24a762473b8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_corner_convex_b.fbx using Guid(019ace7f1c1cfb94fb24a762473b8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cc7bec8b2740ddb0f70cdfc3716287') in 0.150585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_half_02.fbx
+  artifactKey: Guid(416741700fdbeba44ae6a84bbea8b391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_half_02.fbx using Guid(416741700fdbeba44ae6a84bbea8b391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18454ee3714f31b44e3433fc9169258') in 0.147781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_half_01_lava.fbx
+  artifactKey: Guid(56b0fac9981185143a32562b439ad148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_half_01_lava.fbx using Guid(56b0fac9981185143a32562b439ad148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dacbcfc96fdd2f649bef87158520393') in 0.147514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_half_02_lava.fbx
+  artifactKey: Guid(e697f819729e44847b509c8779dacf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/stone_arch_half_02_lava.fbx using Guid(e697f819729e44847b509c8779dacf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d5e2333fe4da90d7dd2c46b548cc07') in 0.149299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_corner_concave_b.fbx
+  artifactKey: Guid(ca32d60d687630946929e651af5a6636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_corner_concave_b.fbx using Guid(ca32d60d687630946929e651af5a6636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f8369557fd67631bb582f2daed3756') in 0.144190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_corner_concave_c.fbx
+  artifactKey: Guid(1d4d6f819a33ef040b0cf6c94cfc1a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_corner_concave_c.fbx using Guid(1d4d6f819a33ef040b0cf6c94cfc1a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89960c75c3fa7a7d4e80e84cd049f383') in 0.144846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_tile_a_02.fbx
+  artifactKey: Guid(4a8e5d366ee448c4696bcc0c73584336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie-rush-Assets/Assets/3D/Fantasy Demon Caves/FBX/wall_tile_a_02.fbx using Guid(4a8e5d366ee448c4696bcc0c73584336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b0b411829f238f64c7955390f6fd0c') in 0.083496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
